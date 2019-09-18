@@ -14,3 +14,29 @@ h2{
     font-family: 'Ubuntu', sans-serif; 
 
 }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.imageProfile{
+    height: 20vh;
+}
+
+/* .educations{
+    box-sizing: border-box;
+} */
+
+.col-mid-1{
+    width: 33.33333333%;
+}
+.col-mid-2{
+    width: 66.66666667%;
+}
